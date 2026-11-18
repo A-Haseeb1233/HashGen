@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+🦅 FalconH HashGen
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cybersecurity-focused hash generator for mobile, built with React Native (Expo). Type or paste any text and instantly generate hashes through a clean, modern glassmorphism interface.
 
-## Get started
+Show Image Show Image Show Image
 
-1. Install dependencies
+✨ Features
+Generate hashes from any input text instantly
+Glassmorphism UI with a dark, security-tool aesthetic
+One-tap copy of the generated hash
+Cross-platform codebase powered by React Native + Expo
+Production builds shipped via EAS Build
+🛠️ Tech Stack
+Layer	Technology
+Framework	React Native (Expo)
+Build	EAS Build
+Language	JavaScript
+🚀 Getting Started
+Prerequisites
+Node.js (LTS)
+Expo Go app on your phone, or an Android emulator
+Run locally
+bash
+git clone https://github.com/<your-username>/falconh-hashgen.git
+cd falconh-hashgen
+npm install
+npx expo start
 
-   ```bash
-   npm install
-   ```
+Scan the QR code with Expo Go to run it on your device.
 
-2. Start the app
+Build with EAS
+bash
+npm install -g eas-cli
+eas login
+eas build --platform android
 
-   ```bash
-   npx expo start
-   ```
+👤 Author
 
-In the output, you'll find options to open the app in a
+Built by Haseeb (FalconH) — FalconH Studio
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📄 License
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the M
